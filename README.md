@@ -33,7 +33,7 @@ Postmark RESTful API is used to send summaries via e-mail just for demo purposes
 
 This script can be used and specifically adapted for videosurveillance, retail intelligence, shelf management, logistics, and much more with tailored outputs, as well actions and automations can be implemented accordingly to intelligence generated.
 
-# Attention
+### Attention
 
 + Make sure the IDE or deployed service has access to the camera device, and that the correct camera source is selected.
 + Adjust the camera source index if necessary. By default, the script accesses the camera with index 1. Change the index accordingly based on your setup.

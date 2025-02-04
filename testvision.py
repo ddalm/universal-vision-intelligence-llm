@@ -17,9 +17,9 @@ POSTMARK_SERVER_TOKEN = os.getenv("POSTMARK_SERVER_TOKEN")
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL")
 VISION_MODEL = "meta-llama/llama-3.2-11b-vision-instruct:free"
-SUMMARY_MODEL = "meta-llama/llama-3.2-1b-instruct:free"
-PROMPT = "Describe this video in detail. Be concise and focus on the main elements."
-SUMMARY_PROMPT = "Generate a concise summary of the following observations. Focus on the main elements and the evolution of events and what subjects do:"
+SUMMARY_MODEL = "deepseek/deepseek-r1-distill-llama-70b:free"
+PROMPT = "Describe this frame in detail. Be concise and focus on the main elements."
+SUMMARY_PROMPT = "Generate a concise summary of the evolution of events that happen across this list of frame descriptions. Focus on the main elements and the evolution of events and what subjects do:"
 
 # File paths
 REAL_TIME_FILE = "real_time_stream.json"
